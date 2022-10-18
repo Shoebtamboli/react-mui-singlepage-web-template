@@ -2,7 +2,7 @@
   "name": "react-mui-singlepage-web-template",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://shoebtamboli.github.io/singlepage-web-template",
+  "homepage": "http://shoebtamboli.github.io/singlepage-web-template",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
