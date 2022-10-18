@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/singlepage-web-template/static/js/main.dabb8389.js",
-    "index.html": "/singlepage-web-template/index.html",
-    "main.dabb8389.js.map": "/singlepage-web-template/static/js/main.dabb8389.js.map"
+    "main.js": "/react-mui-singlepage-web-template/static/js/main.dabb8389.js",
+    "index.html": "/react-mui-singlepage-web-template/index.html",
+    "main.dabb8389.js.map": "/react-mui-singlepage-web-template/static/js/main.dabb8389.js.map"
   },
   "entrypoints": [
     "static/js/main.dabb8389.js"
