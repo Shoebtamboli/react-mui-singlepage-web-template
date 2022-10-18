@@ -4,6 +4,4 @@ interface ColorContextSchema {
   toggleColorMode: () => void;
 }
 
-export const ColorContext = React.createContext<ColorContextSchema>(
-  {} as ColorContextSchema
-);
+export const ColorContext = React.createContext<ColorContextSchema>({} as ColorContextSchema);

@@ -1,15 +1,18 @@
-import { StrictMode } from "react";
-import * as ReactDOMClient from "react-dom/client";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 import { StyledEngineProvider } from "@mui/material/styles";
-import App from "./App";
+import { ChildCare } from '@mui/icons-material';
 
-const rootElement = document.getElementById("root");
-const root = ReactDOMClient.createRoot(rootElement);
-
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
 root.render(
-  <StrictMode>
+  <React.StrictMode>
     <StyledEngineProvider injectFirst>
       <App />
     </StyledEngineProvider>
-  </StrictMode>
+  </React.StrictMode>
 );
+
+

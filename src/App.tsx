@@ -16,16 +16,16 @@ import { Footer } from "./components/Footer";
 
 import NavProvider from "./context/NavContext";
 
-interface Props {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
-  window?: () => Window;
-  children: React.ReactElement;
-}
+// interface Props {
+//   /**
+//    * Injected by the documentation to work in an iframe.
+//    * You won't need it on your project.
+//    */
+//   window?: () => Window;
+//   children: React.ReactElement;
+// }
 
-export default function App(props: Props) {
+const App = () => {
   const [mode, setMode] = React.useState<"light" | "dark">("light");
 
   const colorMode = React.useMemo(
@@ -61,7 +61,7 @@ export default function App(props: Props) {
             <Pricing />
             <Contact />
             <Footer />
-            <ScrollToTop {...props}>
+            <ScrollToTop>
               <Fab size="large" aria-label="scroll back to top">
                 <KeyboardArrowUpIcon />
               </Fab>
@@ -72,3 +72,5 @@ export default function App(props: Props) {
     </React.Fragment>
   );
 }
+
+export default App;

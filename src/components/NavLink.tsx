@@ -32,9 +32,7 @@ const NavLink = (props: { page: any }) => {
   const handleClick = () => {
     console.log("page", page);
     setActiveNavLinkId(page.menuTitle);
-    document!
-      .getElementById(page!.pageURL)!
-      .scrollIntoView({ behavior: "smooth" });
+    document!.getElementById(page!.pageURL)!.scrollIntoView({ behavior: "smooth" });
   };
 
   return (

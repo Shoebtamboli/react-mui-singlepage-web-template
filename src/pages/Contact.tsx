@@ -11,7 +11,7 @@ import { useForm, Controller } from "react-hook-form";
 import * as Yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import ScrollToFade from "../components/ScrollToFade";
-import { Map } from "../components/Map";
+
 
 const location = {
   address: "1600 Amphitheatre Parkway, Mountain View, california.",
@@ -166,7 +166,7 @@ export const Contact = (props: any) => {
           </Grid>
         </Grid>
       </ScrollToFade>
-      {/* <Map location={location} zoomLevel={17} /> */}
+
     </Container>
   );
 };
