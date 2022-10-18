@@ -11,4 +11,4 @@
 ### Scroll to top
 
 ### To open the app in browser 
-Click on [react-mui-singlepage-web-template](https://shoebtamboli.github.io/singlepage-web-template) to view it in the browser.
+Click on [react-mui-singlepage-web-template](https://shoebtamboli.github.io/react-mui-singlepage-web-template/) to view it in the browser.
